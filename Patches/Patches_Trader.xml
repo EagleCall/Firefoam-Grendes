@@ -2,17 +2,17 @@
 <Patch>
 
 	<Operation Class="PatchOperationAdd">
-	   <success>Always</success>
+		<success>Always</success>
 	   <xpath>/Defs/TraderKindDef[defName="Caravan_Outlander_CombatSupplier"]/stockGenerators</xpath>
-	   <value>
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>Weapon_GrenadeExtinguisher</thingDef>
-        <countRange>
+		<value>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Weapon_GrenadeExtinguisher</thingDef>
+				<countRange>
 					<min>1</min>
 					<max>3</max>
-        </countRange>
-      </li>      
-	   </value>
+				</countRange>
+			</li>
+		</value>
 	</Operation>
-	
+
 </Patch>

@@ -5,9 +5,9 @@
     <defName>MakeFirefoamGrenades</defName>
     <label>Firefoam Grenades</label>
     <description>Craft firefoam grenades.</description>
-	<recipeUsers>
-	<li>TableMachining</li>
-	</recipeUsers>
+    <recipeUsers>
+      <li>TableMachining</li>
+    </recipeUsers>
     <jobString>Making firefoam grenades.</jobString>
     <workSpeedStat>SmithingSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
@@ -37,7 +37,7 @@
     <fixedIngredientFilter>
       <thingDefs>
         <li>Steel</li>
-		<li>ComponentIndustrial</li>
+        <li>ComponentIndustrial</li>
       </thingDefs>
     </fixedIngredientFilter>
     <products>
