@@ -3,7 +3,7 @@
 
 	<Operation Class="PatchOperationAdd">
 	   <success>Always</success>
-	   <xpath>*/stockGenerators[defName="Caravan_Outlander_CombatSupplier"]</xpath>
+	   <xpath>/Defs/TraderKindDef[defName="Caravan_Outlander_CombatSupplier"]/stockGenerators</xpath>
 	   <value>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Weapon_GrenadeExtinguisher</thingDef>
