@@ -1,25 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!--Bases-->
-
-  <ThingDef Name="BaseGrenadeProjectile" Abstract="True">
-    <category>Projectile</category>
-    <altitudeLayer>Projectile</altitudeLayer>
-    <thingClass>Projectile_Explosive</thingClass>
-    <label>projectile</label>
-    <tickerType>Normal</tickerType>
-    <useHitPoints>False</useHitPoints>
-    <neverMultiSelect>True</neverMultiSelect>
-    <graphicData>
-      <shaderType>Transparent</shaderType>
-    </graphicData>
-    <projectile>
-      <speed>12</speed>
-      <flyOverhead>false</flyOverhead>
-    </projectile>
-  </ThingDef>
-
   <!--Extinguisher grenade-->
 
   	<ThingDef ParentName="BaseWeapon">
